@@ -8,8 +8,10 @@ requires an exhaustive design-space search approach or time consuming Meta-Heuri
 
 - **`Dataset/`**: Contains the dataset info used in this work
   - **`Before Clustering/`**: Initial dataset created with SSIM and hardware metrics for all ccompressor combinations.
-     - **`FMNIST/`**: [Dataset](https://iiitbac-my.sharepoint.com/:x:/g/personal/rachana_kaparthi_iiitb_ac_in/EeLTKVVfF2BPtMKkEQZqC88Bl3hZUCa1AgVIb3Zp8rFRqg?e=Xqyo7Q) derived from convolution on FMNIST images.
-     - **`MNIST/`**: [Dataset](https://iiitbac-my.sharepoint.com/:x:/g/personal/rachana_kaparthi_iiitb_ac_in/Eb4zZBcZeHtEk3gHNEeiayEBbKPHdskqsFSWbZGr9lcjgw?e=f2aFJh) derived from convolution on MNIST images. 
+     - **`FMNIST/`**: [Dataset](https://drive.google.com/file/d/1FDOkXE9ZJyRYXjeXwi4azMsyECerRjGi/view?usp=sharing) derived from convolution on FMNIST images.
+     - **`MNIST/`**: [Dataset](https://drive.google.com/file/d/1bck4xBBQFb4THrzg-UU5L1bsQDOrHiPo/view?usp=sharing) derived from convolution on MNIST images.
+       - **`HASYV2/`**: [Dataset](https://drive.google.com/file/d/1vYmMIQss6Lcvc2VXGbQEXI0pIV-aakp9/view?usp=sharing) derived from convolution on HASYV2 images.
+  
   - **`After Clustering/`**: Dataset after performing the clustering. The number of datapoints are now reduced.
      - **`FMNIST/`**: Dataset derived from clustering the initial dataset of convolution on FMNIST images. Multiple levels of clustering are considered.
      - **`MNIST/`**: Dataset derived from clustering the initial dataset of convolution on MNIST images. Multiple levels of clustering are considered.
