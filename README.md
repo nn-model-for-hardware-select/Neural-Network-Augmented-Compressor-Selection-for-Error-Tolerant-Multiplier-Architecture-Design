@@ -13,7 +13,8 @@ requires an exhaustive design-space search approach or time consuming Meta-Heuri
   - **`After Clustering/`**: Dataset after performing the clustering. The number of datapoints are now reduced.
      - **`FMNIST/`**: Dataset derived from clustering the initial dataset of convolution on FMNIST images. Multiple levels of clustering are considered.
      - **`MNIST/`**: Dataset derived from clustering the initial dataset of convolution on MNIST images. Multiple levels of clustering are considered.
-  
+     - **`MNIST/`**: Dataset derived from clustering the initial dataset of convolution on MNIST images. Multiple levels of clustering are considered.
+
 
 - **`Codes/`**:  
   - **`Dataset Generation/`**: Codes for generation of initial datasets (before clustering).
